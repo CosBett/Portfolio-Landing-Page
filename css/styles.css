@@ -6,6 +6,15 @@
     font-family: Arial, Helvetica, sans-serif;
     color: orange;
 }
+.end{
+    text-align: justify end;
+}
+em{
+    color: peru;
+}
+.fab{
+    font-size: xx-large;
+}
 @media (min-width: 991.98px) {
     .intro{
         height: 600px;
