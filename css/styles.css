@@ -6,12 +6,9 @@
     font-family: Arial, Helvetica, sans-serif;
     color: orange;
 }
-.bg-image{
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-color: rgba(52, 52, 241, 0.781);
-    background-position: center center;
+body{
+    font-family: 'Mochiy Pop P One', sans-serif;
+    background-color:#ebf5fb;
 }
 .end{
     text-align: justify end;
@@ -33,7 +30,7 @@ h2{
     text-align: right;
 }
 .fab{
-    font-size: 7ch;
+    font-size: 3ch;
 }
 #cont-center{ text-align: center;
     font-size: 3ch;
@@ -65,7 +62,7 @@ h2{
         height: 50px;
     }
     .projects2{
-        height: 200px;
+        height: 400px;
     }
     .footer{
         height: 200px;
