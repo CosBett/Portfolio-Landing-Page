@@ -12,6 +12,7 @@ body{
 }
 .bold{
     font-weight: bolder;
+    color: #1da4db;
 }
 .jumbotron{
     background-color: rgba(188, 236, 236, 0.267);
@@ -21,6 +22,10 @@ body{
     margin: 0;
     padding: 50px;
     height: 50px;
+}
+hr{
+    margin-bottom:40px;
+    border: 1px solid #c8e1f0a8;
 }
 .illus{
     width: 100%;
@@ -61,6 +66,12 @@ body{
 em{
     color: peru;
 }
+#home{
+    font-size: 90px;
+}
+#nam{
+    font-size:60px;
+}
 h2{
     color: rgb(15, 1, 1);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -71,9 +82,12 @@ h2{
     font-family: 'Special Elite', cursive;
     font-weight: bold;
     font-size: 20px;
-}   
+} 
+#hon{
+    margin-top:40px;
+}  
 #slogan{
-    font-size: 50px;
+    font-size: 48px;
     font-family: 'Zen Antique Soft', serif;
     color: #1da4db;
 }
@@ -86,6 +100,9 @@ span{
 }
 .fab{
     font-size: 2ch;
+}
+#foo{
+    margin-bottom: 0;
 }
 #contactme{ text-align: center;
     font-size: 3ch;
@@ -108,13 +125,36 @@ span{
     height: 400px;
     margin-bottom: 20px;
 }
+
 .travel{
-  background-image: url("images/resort.jpg")!important;
+  background-image: url("https://st2.depositphotos.com/1000940/9955/v/950/depositphotos_99551632-stock-illustration-vector-logo-design-template-in.jpg");
   height: 50px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  opacity: 0.3;
+}
+.card-cookie:hover .cookie {
+    visibility: visible;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 30px;
+    left: 0;
+  }
+  .card-cookie {
+    height: 100%;
+    width: 100%;
+  }
+  .card-cookie:hover .cookie-image {
+    visibility: hidden;
+  }
+  .cookie {
+    visibility: hidden;
+  }
+  .card-title {
+    display: block;
 }
 .footer{
   width: 100%;
@@ -122,7 +162,7 @@ span{
   padding: 30px;
   background-color:transparent;
   border: none;
-  font-size: 10px;
+  font-size: 11px;
   margin-bottom: 20px;
 }
 .wigs{
@@ -131,7 +171,8 @@ span{
   padding: 30px;
   background-color:transparent;
   border: none;
-  margin-top: 20px;
+  margin-top: 40px;
+ font-size: 23px;
 }
 .grad{
     width: 80%;
@@ -144,6 +185,8 @@ span{
 .icons{
     font-size: 60px;
     text-align: center;
+    padding-top: 100px;
+    padding-left: 45px;
     
     
 }
