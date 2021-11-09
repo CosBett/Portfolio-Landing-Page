@@ -12,57 +12,54 @@
   </head>
   <body> 
     <div class="container">
-      <div class="row intro d-flex align-items-center">
-        <div class="col-md-4">
-          <meta charset="met-3">
-            <img class="img-fluid"src="images/Profile.jpg" alt="Profile picture"> 
-        </div>  
-        <div class="col-md-4 end">
-          <h1>Hello,</h1>
+      <div class="jumbotron">
+        <nav class="navbar navbar-expand-sm bg-transparent d-flex justify-content-end align-items-center">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#aboutme">About Me</a></li>
+            <li class="nav-item"><a class="nav-link" href="#Education">Education</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contactme">Contacts</a></li>
+          </ul>
+        </nav>
+      </div>
+      <tr class=styletr></tr>
+      <div class="row intro">
+        <div class="col-md-6 pt-5">
+          <h1 id="home">Hello,</h1>
           <h1> I'm Bett Cosmas </h1>
-          <h2> (Software Engineer)</h2>
-            <div class="align-items- center">
-              <p class="yeh"><strong>Coding Inspiration: </strong>My passion & ambitions for technology, mathematics, learning and offering solution to day to day problems is what pushed me to join <a href="http://moringaschool.com/"><em>Moringa School</em></a> to advance my software and web development skills to help and create impact in the communnity and assist in transforming the world to be a better place to reside. </p>
-            </div>
-        </div>
-        <div class="col-md-4 align-self-center">
-          <nav class="navbar navbar-expand-sm bg-transparent">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="#aboutme">About Me</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#Education">Education</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#projects">Projects</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contactme">Contacts</a>
-              </li>
-            </ul>
-          </nav>
-          <div>
-            <img class="img-fluid"src="images/illustration.jpg" round image alt="coding illustration"> 
+          <h2 class="bold"> (Software Engineer)</h2>
+          <div class="align-items- center">
+            <p class="yeh"><strong>Coding Inspiration: </strong>My passion & ambitions for technology, mathematics, learning and offering solution to day to day problems is what pushed me to join <a href="http://moringaschool.com/"><em>Moringa School</em></a> to advance my software and web development skills to help and create impact in the communnity and assist in transforming the world to be a better place to reside. </p>
           </div>
         </div>
+        <div class="col-md-6 align-self-center">
+          <h1 id="slogan">Less Code, More Testing!</h1>
+          <img class="img-responsive illus"src="images/illustration.jpg" round image alt="coding illustration">
+        </div> 
       </div>
       <div class="row about">
-        <div class="col-md-6">
-          <div class="card trans">
+        <div class="col-md-4 mb-5">
+          <meta charset="met-3">
+          <img class="img-fluid prof"src="images/Profile.jpg" alt="Profile picture"> 
+        </div> 
+        <div class="col-md-8">
+          <div class="card trans mb-5">
             <h2 id="aboutme"> About me</h2>
-            <div>
+            <div class="imhot">
               <p >I am a software-developer enthusiast with a vision to be part of design and execution of Artificial inteligence and cloud engineering in future.</p>
               <p>Currently I am pursuing a software development course to become a full Stack developer</p>
               <p>Some of the languages i have experience in are;</p>
-                <ul>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>BOOTSRAP</li>
-              </ul>
+              <div class="d-flex justify-content-around">
+                <img class="w-30"src="images/html.jpg" alt="HTML logo">
+                <img class="w-30"src="images/css.jpg" alt="CSS logo">
+                <img class="w-30"src="images/bootstr.jpg" alt="Bootstrap logo">
+              </div>
             </div>
           </div>
         </div> 
+       </div>  
+      <div class="row education mt-5">
         <div id="Education" class="col-md-6">
           <div class="card trans">
             <h2> Education</h2>
@@ -80,81 +77,120 @@
               </ul>  
           </div>
         </div>
+      <div class="col-md-6">
+        <img class="img-fluid grad"src="images/grad.jpg" alt="Education picture"> 
       </div>
-      <div id="projects" class="row projects">
+      </div>
+        <div id="projects" class="row projects">
         <div class="col-md-12 ">
           <h2>My Masterpiece Collections</h2>
         </div>
       </div>  
       <div class="row projects2">
         <div class="col-md-4">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Travel Agency website</h5>
-              <p class="card-text">This is a website that offers travel advisoory and diverse range of packages.</p>
-              <p class="card-text"> A tour and travel company dedicated to ensure that our extreme clients have great experience during their East Africa visit</p>
-              <a href="https://github.com/CosBett/Happy-Trails-Travel.git" class="btn btn-primary" target="_blank"><i class="fab fa-github"></i> Link</a>
+          <div class="card-wrap">
+            <div class="card"style="background-image: url(https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn3.vectorstock.com%2Fi%2F1000x1000%2F57%2F32%2Fbeach-resort-vector-585732.jpg&imgrefurl=https%3A%2F%2Fwww.vectorstock.com%2Froyalty-free-vector%2Fbeach-resort-vector-585732&tbnid=3AdhMwbT78ZVIM&vet=12ahUKEwjz2rr7oIv0AhUEhXMKHXGEBdUQMygEegUIARDKAQ..i&docid=M1fq6jTSFzn7VM&w=1000&h=863&q=resort%20illustration&ved=2ahUKEwjz2rr7oIv0AhUEhXMKHXGEBdUQMygEegUIARDKAQ);">
+              <div class="card-body travel">
+                <h5 class="card-title">Travel Agency Website</h5>
+                <p class="card-text">A website that offers travel advisory and diverse range of packages.</p>
+                <p class="card-text"> The company dedicated to ensure that extreme clients have great experience during their East Africa visit</p>
+                <a href="https://github.com/CosBett/Happy-Trails-Travel.git" class="btn btn-primary" target="_blank"><i class="fab fa-github"></i> Link</a>
+              </div>
+            </div>
+          </div>  
+        </div>
+        <div class="col-md-4">
+          <div class="card-wrap">
+            <div class="card">
+              <div class="card-body flex-column ">
+                <h5 class="card-title">Chocolate Cookie Website</h5>
+                <p class="card-text">This is an HTML website displaying chocolate cookie recipe</p>
+                <p class="card-text">Created the website during my practise on indentation and spacing</p>
+                <a href="https://github.com/CosBett/chocolate-cookie-recipe.git" class="btn btn-primary"target="_blank"><i class="fab fa-github"></i> Link</a>
+              </div>
             </div>
           </div>
         </div>
         <div class="col-md-4">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Chocolate Cookie Website</h5>
-              <p class="card-text">This is an HTML website displaying chocolate cookie recipe</p>
-              <p class="card-text">Created the website during my practise on indentation and spacing</p>
-              <a href="https://github.com/CosBett/chocolate-cookie-recipe.git" class="btn btn-primary"target="_blank"><i class="fab fa-github"></i> Link</a>
+          <div class="card-wrap">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">My First Website</h5>
+                <p class="card-text">This is my first ever website design I made given that I'm learning software development</p>
+                <p class="card-text">Did it with the help of Moringa School, I'm hoping to improve and be an expert at the end of the course</p>
+                <a href="https://github.com/CosBett/my-first-webpage.git" class="btn btn-primary"target="_blank"><i class="fab fa-github"></i> Link</a>
+              </div>
             </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">My First Website</h5>
-              <p class="card-text">This is my first ever website design I made given that I'm learning software development</p>
-              <p class="card-text">Did it with the help of Moringa School, I'm hoping to improve and be an expert at the end of the course</p>
-              <a href="https://github.com/CosBett/my-first-webpage.git" class="btn btn-primary"target="_blank"><i class="fab fa-github"></i> Link</a>
-            </div>
-          </div>
+          </div>  
         </div>
       </div>
       <div class="row projects2">
         <div class="col-md-4">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Resort Website</h5>
-              <p class="card-text">A website to help hoteliers to display services they offer to clients</p>
-              <p class="card-text">It assist with planning, bookings and display customers feedback.</p>
-              <a href="https://github.com/CosBett/Resort-Website-.git" class="btn btn-primary"target="_blank"><i class="fab fa-github"></i> Link</a>
+          <div class="card-wrap">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Resort Website</h5>
+                <p class="card-text">A website to help hoteliers to display services they offer to clients</p>
+                <p class="card-text">It assist with planning, bookings and display customers feedback.</p>
+                <a href="https://github.com/CosBett/Resort-Website-.git" class="btn btn-primary"target="_blank"><i class="fab fa-github"></i> Link</a>
+              </div>
+            </div>
+          </div>  
+        </div>
+        <div class="col-md-4">
+          <div class="card-wrap">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Bootsrap Practice</h5>
+                <p class="card-text">This is my pratise on bootstrap website </p>
+                <p class="card-text">To help me understand more about Bootstrap and its components</p>
+                <a href="https://github.com/CosBett/Bootstrap-Practice-Website.git" class="btn btn-primary"target="_blank"><i class="fab fa-github"></i> Link</a>
+              </div>
             </div>
           </div>
         </div>
         <div class="col-md-4">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Bootsrap Practice</h5>
-              <p class="card-text">This is my pratise on bootstrap website </p>
-              <p class="card-text">To help me understand more about Bootstrap and its components</p>
-              <a href="https://github.com/CosBett/Bootstrap-Practice-Website.git" class="btn btn-primary"target="_blank"><i class="fab fa-github"></i> Link</a>
+          <div class="card-wrap">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">My Favorite Animal</h5>
+                <p class="card-text">A website about my favorite pet, my german shepherd dog</p>
+                <p class="card-text">It shows pictures and describe its origin and some of the advantages of owning one</p>
+                <a href="https://github.com/CosBett/German-Shepherd-Pet-Website.git" class="btn btn-primary"target="_blank"><i class="fab fa-github"></i> Link</a>
+              </div>
             </div>
-          </div>
+          </div>  
         </div>
+      </div>  
+      <div class="row">
         <div class="col-md-4">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">My Favorite Animal</h5>
-              <p class="card-text">A website about my favorite pet, my german shepherd dog</p>
-              <p class="card-text">It shows pictures and describe its origin and some of the advantages of owning one</p>
-              <a href="https://github.com/CosBett/German-Shepherd-Pet-Website.git" class="btn btn-primary"target="_blank"><i class="fab fa-github"></i> Link</a>
-            </div>
+          <div class="card footer">
+            <h2>Contact Form</h2>
+            <form action="/action_page.php">
+              <label for="fname"> Name :</label>
+              <input type="text" class="full"id="fname" name="fname"><br><br>
+              <label for="lname">Email adress :</label>
+              <input type="text" class="full"id="lname" name="lname"><br><br>
+              <label for="lname">Message:</label>
+              <input type="text" class="full"id="lname" name="lname"><br><br>
+              <input type="submit" value="Submit">
+            </form>
+          </div> 
+        </div> 
+        <div class="col-md-4 icons">
+            <p id="contactme"class="cont-centre"></p>
+            <a href="https://github.com/CosBett" target="_blank"><i class="fab fa-github-square"></i></a>
+              <a href="https://www.facebook.com/Cosmas.bett.mandellah" target="_blank"><i class="fab fa-facebook-square"></i></a>
+              <a href="https://www.linkedin.com/in/CosmasbettM" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <div class="col-md-4"> 
+          <div class="card  wigs">
+            <h4>Cosmas Bett</h4>
+            <h5><i class="fa fa-whatsapp" aria-hidden="true"></i> +254-738-847827</h5>
+            <h5><i class="far fa-envelope"></i> cosmasbett9@gmail.com</h5>
+            <h5><i class="fab fa-github"></i>CosBett</h5>
           </div>
-        </div>
-        <div class="footer">
-          <p id="cont-center"class="contactme"> Contact Me:</p>
-          <a href="https://github.com/CosBett" target="_blank"><i class="fab fa-github-square"></i></a>
-          <a href="https://www.facebook.com/Cosmas.bett.mandellah" target="_blank"><i class="fab fa-facebook-square"></i></a>
-          <a href="https://www.linkedin.com/in/CosmasbettM" target="_blank"><i class="fab fa-linkedin"></i></a>
-        </div>
+        </div> 
       </div>  
     </div>
   </body>
