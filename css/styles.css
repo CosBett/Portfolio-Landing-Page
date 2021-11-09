@@ -28,7 +28,7 @@ body{
 .prof{
     width: 90%;
 }
-.imhot img{
+.lmhot img{
     width: 30%;
     height: 120px;
 }
@@ -45,7 +45,6 @@ body{
 .card-title{
     font-size: 23px;
     color: rgb(68, 98, 233);
-
 }
 .card-text{
     font-family: 'Mochiy Pop One', sans-serif;
@@ -69,13 +68,14 @@ h2{
 }
 .yeh{
     color: rgb(12, 4, 4);
-    font-family: 'Zen Antique Soft', serif;
+    font-family: 'Special Elite', cursive;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 20px;
 }   
 #slogan{
     font-size: 50px;
     font-family: 'Zen Antique Soft', serif;
+    color: #1da4db;
 }
 span{
     color: saddlebrown;
