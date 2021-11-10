@@ -200,8 +200,14 @@ span{
     .jumbotron{
         height: 10px;
     }
-    }
-    .name{
+}
+ .name{
         float: right;
 
+}
+@media (max-width: 479px){
+    .icons{
+        width: 100px;
+        margin-left: 10px;
     }
+}
