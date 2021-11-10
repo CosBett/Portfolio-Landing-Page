@@ -104,10 +104,6 @@ span{
 #foo{
     margin-bottom: 0;
 }
-#contactme{ text-align: center;
-    font-size: 3ch;
-    color: mintcream;
-}
 .busi{
     font-size: 2ch;
     font-family: monospace;
@@ -194,9 +190,7 @@ span{
     .projects{
         height: 50px;
     }
-    .projects2{
-        height: 350px;
-    }
+    
     .jumbotron{
         height: 10px;
     }
@@ -205,9 +199,20 @@ span{
         float: right;
 
 }
-@media (max-width: 479px){
+@media (max-width: 768px){
     .icons{
-        width: 100px;
+        width: 100%;
         margin-left: 10px;
+    }
+    .wigs{
+        width: 100%;
+        margin-left: 10px;
+    }
+    .footer{
+        width: 100%;
+        margin-left: 10px;
+    }
+    .footer label{
+        width: 100px;
     }
 }
