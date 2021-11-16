@@ -6,8 +6,12 @@
 By Cosmas Bett
 
 ## Description
-![gif page illustration](images/portfolio.gif)
-![Page screenshot](images/webpage.jpg)
+![portfolio gif](images/portfolio.gif)
+![Pagescreenshot](images/webpage.jpg)
+
+### Live demo
+https://cosbett.github.io/Portfolio-Landing-Page/
+
 The main purpose of the website is to give prospective clients and employers a chance to know me better in terms of educations, programing languages and skills. It serves as a platform for me to interact with anyone who is interested in my work.
 
 *How to use
@@ -17,7 +21,7 @@ The main purpose of the website is to give prospective clients and employers a c
 4. the page has a form for feedback form for any feedback
 
 * How to clone this Web page
-1. Click this link https://github.com/CosBett/Akan-Names-Website.
+1. Click this link https://github.com/CosBett/Portfolio-Landing-Page
 2. Fork this project to your local machine,
 3. Open index.html file in any browser or edit using Code editor of your preference .
 
